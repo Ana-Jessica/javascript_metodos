@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Testes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Testes Práticos de Variáveis, Objetos, Decisão e Laços de Repetição</h1>
+
+        <p>Escolha uma ação abaixo e insira os valores correspondentes para ver os exemplos de variáveis, objetos, decisões (if/else) e laços de repetição (for).</p>
+
+        <form id="testForm">
+            <h2>Selecione a Ação</h2>
+            <select id="action" required>
+                <option value="" disabled selected>Escolha uma ação</option>
+                <option value="variaveis">Testar Variáveis</option>
+                <option value="objeto">Testar Objeto</option>
+                <option value="decisao">Testar Decisão</option>
+                <option value="lacos">Testar Laços</option>
+            </select>
+
+            <div id="inputSection">
+
+            </div>
+
+            <button type="submit">Executar Teste</button>
+        </form>
+
+        <h2>Saída:</h2>
+        <p id="output"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
